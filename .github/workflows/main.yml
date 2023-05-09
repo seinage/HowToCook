@@ -9,7 +9,7 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: TG908/fork-sync@v1.6.3
+      - uses: zwping/fork-sync@v1.6.5
         with:
           github_token: ${{ secrets.FORK_SYNCHRONIZATION_PERMISSION }}
           owner: Anduin2017 # fork 的上游仓库 user
