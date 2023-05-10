@@ -3,7 +3,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '24 16 * * ?' # 每3小时触发, 对于一些更新不那么频繁的项目可以设置为每天一次, 低碳一点
+    - cron: '0 8 * * ?' # 每天北京时间0点触发
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
