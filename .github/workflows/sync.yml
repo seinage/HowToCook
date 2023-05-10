@@ -3,7 +3,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 8 * * ?' # 每天北京时间0点触发
+    - cron: '0 16 * * ?' # 每天北京时间0点触发
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
